@@ -40,6 +40,16 @@ test_strings = [
     ('belcher, bob b', ['Surname', 'GivenName', 'MiddleInitial']),
     ('belcher, bob b jr', ['Surname', 'GivenName', 'MiddleInitial', 'SuffixGenerational']),
     ('Belcher, Bob B. IV', ['Surname', 'GivenName', 'MiddleInitial', 'SuffixGenerational']),
+    ('Aashish Chaurasia', ['GivenName', 'Surname']),
+    ('Abette Jones-Bey', ['GivenName', 'Surname']),
+    ("A D'Alessandro", ['FirstInitial', 'Surname']),
+    ('Ahmed Imrad', ['GivenName', 'Surname']),
+    ('Amar Patel', ['GivenName', 'Surname']),
+    ('Aj Patel', ['FirstInitial', 'Surname']),
+    ('Anita Cal Johnson Reynolds', ['GivenName', 'Surname', 'Surname']),
+    ('Beneficial Finance', ['CorporationName', 'CorporationName']),
+    ('Brian Cole', ['GivenName', 'Surname']),
+    ("Denny'S Restaurant", ['CorporationName', 'CorporationName']),
 ]
 
 failed = 0
